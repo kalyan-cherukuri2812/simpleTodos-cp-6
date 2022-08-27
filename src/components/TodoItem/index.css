@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7px;
+}
+.para {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: roboto;
+  margin-right: 10px;
+}
+.btn {
+  background-color: transparent;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: roboto;
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  height: 25px;
+  width: 60px;
+  border-radius: 7px;
+}
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  .btn {
+  }
+}
